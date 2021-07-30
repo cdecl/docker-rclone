@@ -18,7 +18,7 @@ jobs:
       uses: docker/login-action@v1
       with:
         registry: docker.com
-        username: ${{ github.repository_owner }}
+        username: cdecl
         password: ${{ secrets.SECRET_KEY }}
         
     - name: Push Docker image
