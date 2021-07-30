@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build . -t cdecl/rclone --no-cache
+docker build . -t cdecl/rclone:latest --no-cache
